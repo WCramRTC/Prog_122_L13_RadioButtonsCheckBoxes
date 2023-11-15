@@ -19,3 +19,10 @@
 ## Davids Tip for Efficency
 
 Select -> Alt + Click + Drag will make a copy and drag the control with it
+
+## What does NULL mean?
+
+Null means that something does NOT exists.
+
+## Questions Asked
+So like would this be a good format for like a test? Like if you click the right  box it comes out as true?

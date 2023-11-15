@@ -12,10 +12,11 @@
     <Canvas>
 
         <CheckBox
+            x:Name="ckPineapple"
             Content="Pineapple"
-            Canvas.Left="64"
-            Canvas.Top="46"
-            HorizontalAlignment="Center"
+            Canvas.Left="282"
+            Canvas.Top="73"
+            HorizontalAlignment="Left"
             VerticalAlignment="Top"
             IsChecked="False"
             Width="124" />
@@ -39,23 +40,192 @@
             Canvas.Top="356"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
-            Width="196" />
+            Width="196"
+            Click="btnReceipt_Click" />
         <CheckBox
+            x:Name="ckMushroom"
             Content="Mushrooms"
-            Canvas.Left="64"
-            Canvas.Top="81"
+            Canvas.Left="282"
+            Canvas.Top="108"
             IsChecked="False"
             Width="124"
-            HorizontalAlignment="Center"
+            HorizontalAlignment="Left"
             VerticalAlignment="Top" />
         <CheckBox
+            x:Name="ckSausage"
             Content="Sausage"
-            Canvas.Left="64"
-            Canvas.Top="117"
+            Canvas.Left="282"
+            Canvas.Top="144"
             IsChecked="False"
             Width="124"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" />
+        <CheckBox
+            x:Name="ckChicken"
+            Content="Teriyaki Chicken"
+            Canvas.Left="282"
+            Canvas.Top="183"
+            IsChecked="False"
+            Width="124"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" />
+        <CheckBox
+            x:Name="ckChicken_Copy"
+            Content="Teriyaki Chicken"
+            Canvas.Left="282"
+            Canvas.Top="183"
+            IsChecked="False"
+            Width="124"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" />
+        <CheckBox
+            x:Name="ckJerkChicken"
+            Content="Cajun Jerk Chicken"
+            Canvas.Left="282"
+            Canvas.Top="217"
+            IsChecked="False"
+            Width="124"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" />
+        <Label
+            Content="Toppings"
+            Canvas.Left="282"
+            Canvas.Top="28"
             HorizontalAlignment="Center"
             VerticalAlignment="Top" />
+        <RadioButton
+            x:Name="rbCheddar"
+            Content="Cheddar"
+            Canvas.Left="181"
+            Canvas.Top="76"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" />
+        <RadioButton
+            x:Name="rbColby"
+            Content="Colby Jack"
+            Canvas.Left="181"
+            Canvas.Top="102"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" />
+        <RadioButton
+            x:Name="rbMoz"
+            Content="Mozzeralla"
+            Canvas.Left="181"
+            Canvas.Top="126"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" />
+        <RadioButton
+            x:Name="rbAmerican"
+            Content="American"
+            Canvas.Left="181"
+            Canvas.Top="152"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" />
+        <Label
+            Content="Cheese"
+            Canvas.Left="181"
+            Canvas.Top="41" />
+        <Label
+            Content="Cheese"
+            Canvas.Left="181"
+            Canvas.Top="41"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center" />
+        <Canvas
+            Height="143"
+            Width="85"
+            Background="#FFFF7474"
+            Canvas.Left="35"
+            Canvas.Top="24"
+            RenderTransformOrigin="0.5,0.5"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center">
+            <Canvas.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform />
+                    <RotateTransform
+                        Angle="0" />
+                    <TranslateTransform />
+                </TransformGroup>
+            </Canvas.RenderTransform>
+            <RadioButton
+                x:Name="rbSizeS"
+                Content="S"
+                Canvas.Left="19"
+                Canvas.Top="40"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top" />
+            <RadioButton
+                x:Name="rbSizeM"
+                Content="M"
+                Canvas.Left="19"
+                Canvas.Top="62"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top" />
+            <RadioButton
+                x:Name="rbSizeL"
+                Content="L"
+                Canvas.Left="19"
+                Canvas.Top="83"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top" />
+            <RadioButton
+                x:Name="rbSizeXL"
+                Content="XL"
+                Canvas.Left="19"
+                Canvas.Top="105"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top" />
+            <Label
+                Content="Size"
+                Canvas.Left="19"
+                Canvas.Top="10"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top" />
+        </Canvas>
+        <Label
+            Content="Sauce"
+            Canvas.Left="36"
+            Canvas.Top="183" />
+        <RadioButton
+            x:Name="rbRed"
+            Content="Red"
+            Canvas.Left="36"
+            Canvas.Top="209"
+            GroupName="sauce" />
+        <RadioButton
+            x:Name="rbWhite"
+            Content="White"
+            Canvas.Left="36"
+            Canvas.Top="229"
+            GroupName="sauce"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top" />
+        <RadioButton
+            x:Name="rbGarlic"
+            Content="Garlic"
+            Canvas.Left="36"
+            GroupName="sauce"
+            Canvas.Top="249"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center" />
+        <RadioButton
+            x:Name="rbBuffalo"
+            Content="Buffalo"
+            Canvas.Left="36"
+            GroupName="sauce"
+            Canvas.Top="269"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top" />
+        <RadioButton
+            x:Name="rbNoSauce"
+            Content="No Sauce"
+            Canvas.Left="35"
+            GroupName="sauce"
+            Canvas.Top="289"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center" />
 
     </Canvas>
 </Window>
