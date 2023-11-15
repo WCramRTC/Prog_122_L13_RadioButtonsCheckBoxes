@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:Prog_122_L13_RadioButtonsCheckBoxes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Canvas>
+        
+        <Button
+            x:Name="btnDisplay"
+            Content="Display"
+            Canvas.Left="138"
+            Canvas.Top="104"
+            Height="48"
+            Width="145" />
 
-    </Grid>
+
+
+    </Canvas>
 </Window>
