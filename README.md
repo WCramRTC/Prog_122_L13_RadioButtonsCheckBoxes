@@ -14,3 +14,8 @@
             Height="48"
             Width="145" />
 ```
+
+
+## Davids Tip for Efficency
+
+Select -> Alt + Click + Drag will make a copy and drag the control with it
